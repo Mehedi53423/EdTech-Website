@@ -13,6 +13,10 @@
 
     <!-- Custom CSS -->
     <style>
+        .exploreColor{
+            background-color: #F4FAFD;
+        }
+
         @media only screen and (max-width: 688px){
             .sliderHeader{
                 font-size: 3vh;
@@ -41,7 +45,7 @@
             <div class="container">
                 <a class="navbar-brand fs-2 fw-bold" href="#">E-Patsala</a>
                 <div class="d-flex justify-content-end">
-                    <button type="button" class="btn btn-outline-primary d-none d-md-block d-lg-none me-3">Register</button>
+                    <button type="button" class="btn btn-outline-info d-none d-md-block d-lg-none me-3 fw-bold">Register</button>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
@@ -65,7 +69,7 @@
                         </li>
                     </ul>
                 </div>
-                <button type="button" class="btn btn-outline-primary d-none d-lg-block d-xl-block d-xxl-block">Register</button>
+                <button type="button" class="btn btn-outline-info fw-bold d-none d-lg-block d-xl-block d-xxl-block">Register</button>
             </div>
         </nav>
         <!-- Navbar End -->
@@ -78,7 +82,7 @@
                         <img src="images/cover/cover-1.png" class="d-block w-100 rounded" alt="cover 1">
                         <div class="container-fluid carousel-caption d-flex flex-column h-100 align-items-center justify-content-center p-5 position-absolute start-0 bottom-0 bg-black rounded" style="--bs-bg-opacity: .5;">
                             <h1 class="display-2 fw-bold w-75 sliderHeader">Get Started Digital Learning</h1>
-                            <p class="sliderPara">Some representative placeholder content for the first slide.</p>
+                            <p class="sliderPara">We Are The Top Performing E-learning Platform</p>
                             <button class="btn btn-primary fs-4 fw-bold sliderBtn">Get Started</button>
                         </div>
                     </div>
@@ -86,7 +90,7 @@
                         <img src="images/cover/cover-2.jpg" class="d-block w-100 rounded" alt="cover 2">
                         <div class="container-fluid carousel-caption d-flex flex-column h-100 align-items-center justify-content-center p-5 position-absolute start-0 bottom-0 bg-black rounded" style="--bs-bg-opacity: .5;">
                             <h1 class="display-2 fw-bold w-75 sliderHeader">Get Started Digital Learning</h1>
-                            <p class="sliderPara">Some representative placeholder content for the second slide.</p>
+                            <p class="sliderPara">Get A Chance To Shine In Your Life</p>
                             <button class="btn btn-primary fs-4 fw-bold sliderBtn">Get Started</button>
                         </div>
                     </div>
@@ -94,7 +98,7 @@
                         <img src="images/cover/cover-3.jpg" class="d-block w-100 rounded" alt="cover 3">
                         <div class="container-fluid carousel-caption d-flex flex-column h-100 align-items-center justify-content-center p-5 position-absolute start-0 bottom-0 bg-black rounded" style="--bs-bg-opacity: .5;">
                             <h1 class="display-2 fw-bold w-75 sliderHeader">Get Started Digital Learning</h1>
-                            <p class="sliderPara">Some representative placeholder content for the third slide.</p>
+                            <p class="sliderPara">We Are Always Here For You</p>
                             <button class="btn btn-primary fs-4 fw-bold sliderBtn">Get Started</button>
                         </div>
                     </div>
@@ -190,15 +194,15 @@
         <!-- Courses Section End -->
 
         <!-- Explore Section Start -->
-        <section class="container mb-5">
-            <div class="card mb-3 border rounded-0">
+        <section class="container mb-5 pb-5 pt-5">
+            <div class="card border rounded-0">
                 <div class="row g-0">
                     <div class="col-md-6 col-lg-4">
                         <img src="images/working.png" class="img-fluid" alt="">
                     </div>
-                    <div class="col-md-6 col-lg-8 d-flex">
+                    <div class="col-md-6 col-lg-8 d-flex  exploreColor">
                         <div class="card-body px-lg-5 d-flex flex-column justify-content-center">
-                            <h1 class="fw-bold pb-lg-2">Explore The E-Learning Institute</h1>
+                            <h1 class="fw-bold pb-lg-2">Explore The E-Patsala Institute</h1>
                             <p class="">Our institute is the market-leading e-learning platform. By joining our institute you can learn so many things. Nowadays e-learning is the best platform for learning. We offer you many courses, from which you can choose one or more.</p>
                             <div class="d-flex my-md-3 my-lg-3">
                                 <div class="pe-md-3 pe-lg-5">
@@ -270,11 +274,11 @@
         <!-- Modal Section End -->
 
         <!-- Successfull Students Section Start -->
-        <section class="container mb-5">
+        <section class="container mb-5 pt-5">
             <div>
                 <div class="mb-5 text-center text-md-start">
                     <h1 class="fw-bold pb-4">Meet Our Successfull Students</h1>
-                    <p>Those are our successfull students. They took our courses and performed well.</p>
+                    <p class="text-secondary">Those are our successfull students. They took our courses and performed well.</p>
                 </div>
                 <div class="row g-3 mb-5">
                     <!-- Single Student -->
@@ -282,8 +286,8 @@
                         <div class="border rounded">
                             <img src="images/student/student-1.png" class="img-fluid col-md-12 col-12" alt="Student 1">
                             <div class="ps-3 pt-3">
-                                <p>
-                                    <span class="fw-bold">Awlad Hossain</span><br>UI/UX Designer
+                                <p class="text-secondary">
+                                    <span class="text-dark fw-bold">Awlad Hossain</span><br>UI/UX Designer
                                 </p>
                             </div>
                         </div>
@@ -293,8 +297,8 @@
                         <div class="border rounded">
                             <img src="images/student/student-2.png" class="img-fluid col-md-12 col-12" alt="Student 2">
                             <div class="ps-3 pt-3">
-                                <p>
-                                    <span class="fw-bold">Jannatul Islam</span><br>Motion Design
+                                <p class="text-secondary">
+                                    <span class="text-dark fw-bold">Jannatul Islam</span><br>Motion Design
                                 </p>
                             </div>
                         </div>
@@ -304,8 +308,8 @@
                         <div class="border rounded">
                             <img src="images/student/student-3.png" class="img-fluid col-md-12 col-12" alt="Student 3">
                             <div class="ps-3 pt-3">
-                                <p>
-                                    <span class="fw-bold">Imran Hossain</span><br>Graphic Designer
+                                <p class="text-secondary">
+                                    <span class="fw-bold text-dark">Imran Hossain</span><br>Graphic Designer
                                 </p>
                             </div>
                         </div>
@@ -315,8 +319,8 @@
                         <div class="border rounded">
                             <img src="images/student/student-4.png" class="img-fluid col-md-12 col-12" alt="Student 4">
                             <div class="ps-3 pt-3">
-                                <p>
-                                    <span class="fw-bold">Nishi Akter</span><br>Web Developer
+                                <p class="text-secondary">
+                                    <span class="fw-bold text-dark">Nishi Akter</span><br>Web Developer
                                 </p>
                             </div>
                         </div>
@@ -354,13 +358,13 @@
                                     </div>
                                 </div>
                                 <div class="py-3">
-                                    <p>This E-Learning platform is very good. I took a course of web development. They teach us properly. It's interesting that, From a bigginer, right now I am a profesonal web developer. Thanks to E-Patsala institute</p>
+                                    <p class="text-secondary">This E-Learning platform is very good. I took a course in web development. They teach us properly. It's interesting that, From a beginner, right now I am a professional web developer. Thanks to E-Patsala institute.</p>
                                 </div>
                                 <div class="d-flex">
                                     <div>
                                         <img src="images/student/student-5.png" class="img-fluid" alt="Student 5">
                                     </div>
-                                    <p class="ps-3"><span class="fw-bold">Awlad Hossain</span><br>Web Developer</p>
+                                    <p class="ps-3 text-secondary"><span class="text-dark fw-bold">Awlad Hossain</span><br>Web Developer</p>
                                 </div>
                             </div>
                         </div>
@@ -380,13 +384,13 @@
                                     </div>
                                 </div>
                                 <div class="py-3">
-                                    <p>This E-Learning platform is very good. I took a course of graphics design. They teach us properly. It's interesting that, From a bigginer, right now I am a profesonal graphics design. Thanks to E-Patsala institute</p>
+                                    <p class="text-secondary">This E-Learning platform is very good. I took a course in graphics design. They teach us properly. It's interesting that, From a beginner, right now I am a professional graphics designer. Thanks to E-Patsala institute.</p>
                                 </div>
                                 <div class="d-flex">
                                     <div>
                                         <img src="images/student/student-6.png" class="img-fluid" alt="Student 6">
                                     </div>
-                                    <p class="ps-3"><span class="fw-bold">Shanta Akter</span><br>Graphic Designer</p>
+                                    <p class="ps-3 text-secondary"><span class="fw-bold text-dark">Shanta Akter</span><br>Graphic Designer</p>
                                 </div>
                             </div>
                         </div>
@@ -403,7 +407,7 @@
         <section class="container">
             <div class="text-center mb-5">
                 <h1 class="fw-bold">Frequently Asked Questions</h1>
-                <p>Some frequently asked questions answers are given below,</p>
+                <p class="text-secondary">Some frequently asked questions answers are given below,</p>
             </div>
             <div class="accordion" id="accordionExample">
                 <!-- 1st Question -->
@@ -414,7 +418,7 @@
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                        <div class="accordion-body text-secondary">
                             The basic difference between flexbox and grid Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
                         </div>
                     </div>
@@ -427,7 +431,7 @@
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                        <div class="accordion-body text-secondary">
                             The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI kit. Unlike UI kits such as Bootstrap, Tailwind CSS doesn't have a default theme or built-in UI components. Instead, it comes with predesigned widgets you can use to build your site from scratch.
                         </div>
                     </div>
@@ -440,7 +444,7 @@
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                        <div class="accordion-body text-secondary">
                             The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
                         </div>
                     </div>
@@ -453,7 +457,7 @@
                         </button>
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                        <div class="accordion-body text-secondary">
                             The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.
                         </div>
                     </div>
