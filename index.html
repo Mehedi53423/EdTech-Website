@@ -232,11 +232,42 @@
                     <p>We have so many courses, that you can enroll. Register for enrollment.</p>
                 </div>
                 <div>
-                    <button class="btn btn-light px-3 py-2 text-info fw-bold">Register Now</button>
+                    <button type="button" class="btn btn-light px-3 py-2 text-info fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
                 </div>
             </div>
         </section>
         <!-- Ready To Join Section End -->
+
+        <!-- Modal Section Start -->
+        <section>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fw-bold" id="exampleModalLabel">Register Now</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                            <div class="mb-3">
+                                <label for="recipient-email" class="col-form-label">E-mail Id : </label>
+                                <input type="email" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Password :</label>
+                                <input type="password" class="form-control" id="recipient-password">
+                            </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Modal Section End -->
 
         <!-- Successfull Students Section Start -->
         <section class="container mb-5">
@@ -449,7 +480,10 @@
         </section>
         <!-- Trusted Companies Section End -->
     </main>
+
     <!-- Footer -->
+
+    <!-- Footer Start -->
     <footer class="bg-dark p-5">
         <div class="text-white text-center mt-5">
             <h1 class="fw-bold">E-Patsala</h1>
@@ -463,6 +497,8 @@
             <a href="https://www.linkedin.com" target="_blank" ><i class="fa-brands fa-linkedin text-white px-2"></i></a>
         </div>
     </footer>
+    <!-- Footer End -->
+
     <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
